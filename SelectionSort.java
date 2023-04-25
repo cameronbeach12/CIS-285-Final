@@ -13,12 +13,6 @@ public class SelectionSort {
             }
             swap(arr, i, minIndex);
         }
-        
-        System.out.println(arr[0]);
-        System.out.println(arr[1]);
-        System.out.println(arr[2]);
-        System.out.println(arr[3]);
-        System.out.println(arr[4]);
     }
 
     private void swap(int[] arr, int i, int j) {
